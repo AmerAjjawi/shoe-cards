@@ -24,7 +24,37 @@ body {
     margin: 20px 0;
     padding: 20px 20px 30px;
     border-radius: 5px;
-    box-shadow: 0 4px 4px rgba(0,0,0, 0.1);
+    box-shadow: 0 4px 6px rgba(0,0,0, 0.1);
 }
 
 /* h1 */
+.card h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.card p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.card-sporty h1 {
+    color: #FF9793;
+}
+
+.card-casual h1 {
+    color: #366899;
+}
+
+.card-formal h1 {
+    color: #F2D394;
+}
+
+.card a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+}
