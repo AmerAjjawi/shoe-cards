@@ -32,14 +32,15 @@ body {
     font-size: 22px;
     margin-bottom: 20px;
 }
-
+/* paragraph */
 .card p {
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 30px;
 }
+/* headings */
 .card-sporty h1 {
-    color: #FF9793;
+    color: #CD1C18;
 }
 
 .card-casual h1 {
@@ -49,7 +50,7 @@ body {
 .card-formal h1 {
     color: #F2D394;
 }
-
+/* links */
 .card a {
     text-decoration: none;
     color: #fff;
@@ -57,4 +58,47 @@ body {
     padding: 10px 15px;
     border-radius: 5px;
     font-size: 16px;
+}
+
+/* links color */
+.card a:hover {
+    opacity: 0.9;
+}
+
+
+.card-sporty a {
+    background-color: #CD1C18;
+}
+
+.card-casual a {
+    background-color: #366899;
+}
+
+.card-formal a {
+    background-color: #F2D394;
+}
+
+.card-sporty {
+    background: #ffff url('./images/nike1.png') no-repeat center right;
+    object-fit: contain;
+    background-size: 200px;
+    
+    
+    
+}
+.card-casual {
+    background: #ffff url('./images/casual1.png') no-repeat center right;
+    object-fit: contain;
+    background-size: 200px;
+    
+    
+    
+}
+.card-formal {
+    background: #ffff url('./images/formal2.png') no-repeat center right;
+    object-fit: contain;
+    background-size: 200px;
+    
+    
+    
 }
